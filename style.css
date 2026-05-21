@@ -1,0 +1,106 @@
+body {
+    background-image: url('images/bg-intro-desktop.png'); 
+    background-color: hsl(0, 100%, 74%); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    padding: 0 50px; 
+    gap: 60px;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.1;
+
+}
+p{ 
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.free{
+   background-color: hsl(248, 32%, 49%);
+    border-radius: 8px;
+    padding: 15px 20px;
+    color: white;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto 20px auto;
+    box-shadow: 0 6px 0 rgba(0, 0, 0, 0.15);
+    
+
+}
+.introtxt{
+    max-width: 520px;
+}
+form{
+    flex-direction: column;
+    gap: 15px;
+    display: flex;
+}
+
+.fbox{
+    background-color: white;
+    border-radius: 10px;
+    padding: 35px;
+    max-width: 500px;
+    box-shadow: 0px 8px 0px rgba(0,0,0, 0.1)
+}
+input{
+    width: 100%;
+    padding: 15px;
+    border-color: 1px solid thistle;
+    border-radius: 5px;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+button{
+    background-color: rgb(96, 211, 96);
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: green;
+    font-weight: 600;
+    text-transform: uppercase;
+    box-shadow: 0px 4px 0px rgb(58, 153, 58);
+}
+.terms{
+    color: rgb(94, 93, 93);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.terms span{
+    color: hsl(0, 100%, 74%);
+    font-weight: bold;
+}
+.error-msg {
+    color: red;
+    font-size: 11px;
+    text-align: right; 
+    margin-top: 5px;
+    display: none; 
+}
+
+.error-input {
+    border: 2px solid red !important; 
+}
+
+
+.error-input {
+    background-image: url('images/icon-error.svg'); 
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+}
